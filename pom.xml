@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.bgenius</groupId>
+    <artifactId>scconnect</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>scconnect-www</module>
+        <module>scconnect-api</module>
+        <module>scconnect-core</module>
+        <module>scconnect-mgmt</module>
+    </modules>
+
+    <parent>
+        <groupId>cn.bgenius</groupId>
+        <artifactId>olive</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../olive</relativePath>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <docker.image.prefix>ascode</docker.image.prefix>
+    </properties>
+
+</project>
